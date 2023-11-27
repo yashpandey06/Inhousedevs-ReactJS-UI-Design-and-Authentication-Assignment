@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply leading-[normal] m-0;
+}
+
+.custom_but {
+  border-radius: 8px;
+  background: var(--ff-6666, #F66);
+}
+
+.custom-but-2 {
+  background: #0095FF;
+}
+
+.side-panel {
+  background: var(--0-a-3055, #0A3055);
+}
+
+.active-but {
+  border-radius: 4px;
+  background: #0A3055;
+}
